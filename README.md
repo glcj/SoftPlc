@@ -15,7 +15,7 @@ cd SoftPlc
 dotnet restore
 dotnet build
 cp native\win\snap7.dll bin\x64\Debug\net6.0\snap7.dll
-dotnet bin\Debug\netcoreapp2.0\SoftPlc.dll --plcPort=102 --urls="http://localhost:8080/"
+dotnet bin\Debug\net8.0\SoftPlc.dll --plcPort=102 --urls="http://localhost:8080/"
 ```
 
 ### Use it with docker
